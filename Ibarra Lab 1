@@ -1,0 +1,31 @@
+#Register
+name = input("Enter Name: ")
+str('Name')
+course__name = input("Enter Course Name: ")
+str('course_name')
+print("Enter semestral grade of a course: ")
+str('semestral grade of a course')
+sem1=int(input("Enter Prelim Grade: "))
+sem2=int(input("Enter Midterm Grade: "))
+sem3=int(input("Enter Final Grade: "))
+
+#Average
+avg=(sem1+sem2+sem3)/3
+
+#Results
+if avg>=71 and avg<=100:
+    print("Happy")
+    print("\U0001F600")
+elif avg>=70 and avg<=70:
+    print("Laughing")
+    print("\U0001F606")
+else:
+    print("Sad")
+    print("\U0001F62D")
+print('=' * 66)
+print(name)
+print(course__name)
+print(avg)
+str(avg)
+print(sem1,sem2,sem3)
+str('sem1,sem2,sem3')
